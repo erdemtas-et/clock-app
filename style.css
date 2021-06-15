@@ -1,0 +1,27 @@
+body {
+    background-color: coral;
+    text-align: center;
+}
+
+h1,
+p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+div h1 {
+    font-size: 4rem;
+}
+
+div {
+    display: inline-block;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 10rem;
+}
