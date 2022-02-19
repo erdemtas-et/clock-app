@@ -1,4 +1,4 @@
-let yourName = prompt("İsminizi giriniz..")
+let yourName = prompt("Enter your name : ")
 
 let date = new Date()
 
@@ -15,25 +15,25 @@ let day = date.getDay()
 let dayString = ""
 switch (day) {
     case 0:
-        dayString = "Pazar"
+        dayString = "Sunday"
         break;
     case 1:
-        dayString = "Pazartesi"
+        dayString = "Monday"
         break;
     case 2:
-        dayString = "Salı"
+        dayString = "Tuesday"
         break;
     case 3:
-        dayString = "Çarşamba"
+        dayString = "Wednesday"
         break;
     case 4:
-        dayString = "Perşembe"
+        dayString = "Thursday"
         break;
     case 5:
-        dayString = "Cuma"
+        dayString = "Friday"
         break;
     case 6:
-        dayString = "Cumartesi"
+        dayString = "Saturday"
         break;
 
     default:
@@ -85,7 +85,7 @@ setInterval(() => {
 
 
 
-    document.querySelector("#message").innerHTML = `Hoşgeldin ${yourName}! <br> Bugün günlerden ${dayString}. <br>`
+    document.querySelector("#message").innerHTML = `Hey! ${yourName}! <br> Today is ${dayString}. <br>`
 
     document.querySelector("#hours-h1").innerHTML = hour
     document.querySelector("#minutes-h1").innerHTML = minute
